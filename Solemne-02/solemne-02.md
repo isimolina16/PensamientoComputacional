@@ -3,12 +3,13 @@ https://editor.p5js.org/SoftBlue_Ali/sketches/5dHI209fc
 
 ## Integrantes del grupo
 
-- (Almendra Manzi) [cuentaGithub](https://github.com/cuentaGithub)
-- (Isidora Molina) [](https://github.com/cuentaGithub)
+- (Almendra Manzi) [Almendra-Manzi](https://github.com/Almendra-Manzi)
+- (Isidora Molina) [isimolina16](https://github.com/isimolina16)
 
 ## Descripción del disco
+lanzado el 15 de septiembre de 1986, Pateando piedras entrega un potente mensaje de la sociedad Chilena de la epoca, marcado la dictadura, la desigualdad y la frustración causada por la falta de oportunidades presente en las clases menos acomodadas, visto desde las vivencias de los miembros de la banda.
 
-![Portada de álbum xxxx yyyy](./img/cover.jpg)
+![Portada de álbum pateando piedras](./img/pateando-piedras.jpg)
 
 - (Pateando Piedras)
 - 1986
@@ -86,28 +87,44 @@ Aquí se utiliza if y else para generar el efecto de cambiar del lado de la mone
 //declaro "tam" como la deformación del objeto con seno
   let tam = 20 + sin(t) * 200;
 ```
-
+La primera parte establece la velocidad con la que se realizará la animación (t), la segunda parte contiene los valores que se utilizaran para deformar el objeto, suavizando el movimiento con "sin"
 
 ### Declaración sobre el uso de IA
 
 - IA utilizada(s) y tipo de licencia (pago, gratuita)
 
-> Chatgpt gratis, Claude pagado, etc
+> Chatgpt gratis
 
 - Problema a resolver a través de la IA
 
-> Generación de grillas, animación de imagen, etc
+> lograr el efecto de cambio de cara para lograr la ilusión de un objeto en 3d
 
 - Prompts utilizados
 
-> Prompt 1
+> Prompt 1: "Estoy intentando crear un codigo en p5js para generar una animación con 3 o más variables, Hasta ahora me han enseñado comandos básicos de figuras (square, ellipse, rect, etc), frame rate, random, if, let, mouse x/y, sin y cos, no puedo activar WEBGL aun. Ya tengo una parte hecha, me puedes dar ideas de variables que puedo agregar a mi proyecto?"
 
-> Prompt 2
+> Prompt 2: "Quiero hacer un efecto de cara y sello con los comandos que se pero de momento solo se como animar una cara"
 
-> Prompt 3
+> Prompt 3: (Enviada una captura del código)
+"Este es mi codigo, me ayudas a integrar el otro lado de la moneda? (Sello)"
 
 - Secciones de código entregadas por la IA
 
 ```js
-//código entregado por IA acá
+  if (tam > 0) {
+
+    image(cara,
+          width/2,
+          height/2,
+          tam,
+          200);
+
+  } else {
+
+    image(sello,
+          width/2,
+          height/2,
+          abs(tam),
+          200);
+  }
 ```
