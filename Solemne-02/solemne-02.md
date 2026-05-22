@@ -9,7 +9,7 @@ https://editor.p5js.org/SoftBlue_Ali/sketches/5dHI209fc
 ## Descripción del disco
 lanzado el 15 de septiembre de 1986, Pateando piedras entrega un potente mensaje de la sociedad Chilena de la epoca, marcado la dictadura, la desigualdad y la frustración causada por la falta de oportunidades presente en las clases menos acomodadas, visto desde las vivencias de los miembros de la banda.
 
-![Portada de álbum pateando piedras](./img/pateando-piedras.jpg)
+![Portada de álbum pateando piedras](./pateando-piedras.jpg)
 
 - (Pateando Piedras)
 - 1986
