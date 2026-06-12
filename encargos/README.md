@@ -1,0 +1,1 @@
+# encargos de pensamiento computacional
